@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0CD20AD41E54AFC1003E4E70 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD20AD31E54AFC1003E4E70 /* HomeViewController.swift */; };
+		5646D26CF1EC6B33EA3A9124 /* Pods_TotoScanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E85340122A065BC330D43572 /* Pods_TotoScanner.framework */; };
 		56B00A311E549DA80069E3C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B00A301E549DA80069E3C3 /* AppDelegate.swift */; };
 		56B00A331E549DA80069E3C3 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B00A321E549DA80069E3C3 /* FirstViewController.swift */; };
 		56B00A351E549DA80069E3C3 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B00A341E549DA80069E3C3 /* SecondViewController.swift */; };
@@ -27,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0CD20AD31E54AFC1003E4E70 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2093032F952A52E8149D670B /* Pods-TotoScanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TotoScanner.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TotoScanner/Pods-TotoScanner.debug.xcconfig"; sourceTree = "<group>"; };
 		56B00A2D1E549DA80069E3C3 /* TotoScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TotoScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56B00A301E549DA80069E3C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		56B00A321E549DA80069E3C3 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +42,8 @@
 		56B00A431E549DA80069E3C3 /* TotoScannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TotoScannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		56B00A471E549DA80069E3C3 /* TotoScannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotoScannerTests.swift; sourceTree = "<group>"; };
 		56B00A491E549DA80069E3C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E85340122A065BC330D43572 /* Pods_TotoScanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TotoScanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F74383FD98B30491C49CA48A /* Pods-TotoScanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TotoScanner.release.xcconfig"; path = "Pods/Target Support Files/Pods-TotoScanner/Pods-TotoScanner.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5646D26CF1EC6B33EA3A9124 /* Pods_TotoScanner.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +71,8 @@
 				56B00A2F1E549DA80069E3C3 /* TotoScanner */,
 				56B00A461E549DA80069E3C3 /* TotoScannerTests */,
 				56B00A2E1E549DA80069E3C3 /* Products */,
+				5B89903CB7D64DA039EFC92E /* Pods */,
+				73C8E9E2A9083B3803474B47 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,6 +95,7 @@
 				56B00A391E549DA80069E3C3 /* Assets.xcassets */,
 				56B00A3B1E549DA80069E3C3 /* LaunchScreen.storyboard */,
 				56B00A3E1E549DA80069E3C3 /* Info.plist */,
+				0CD20AD31E54AFC1003E4E70 /* HomeViewController.swift */,
 			);
 			path = TotoScanner;
 			sourceTree = "<group>";
@@ -99,6 +109,23 @@
 			path = TotoScannerTests;
 			sourceTree = "<group>";
 		};
+		5B89903CB7D64DA039EFC92E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2093032F952A52E8149D670B /* Pods-TotoScanner.debug.xcconfig */,
+				F74383FD98B30491C49CA48A /* Pods-TotoScanner.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		73C8E9E2A9083B3803474B47 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E85340122A065BC330D43572 /* Pods_TotoScanner.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +133,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 56B00A4C1E549DA80069E3C3 /* Build configuration list for PBXNativeTarget "TotoScanner" */;
 			buildPhases = (
+				FE5E8A82D912AA9D6D485366 /* [CP] Check Pods Manifest.lock */,
 				56B00A291E549DA80069E3C3 /* Sources */,
 				56B00A2A1E549DA80069E3C3 /* Frameworks */,
 				56B00A2B1E549DA80069E3C3 /* Resources */,
+				D860E219B6D07A8EAAB18D96 /* [CP] Embed Pods Frameworks */,
+				25AFF3A2B489E43B514F4691 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,6 +179,7 @@
 				TargetAttributes = {
 					56B00A2C1E549DA80069E3C3 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 4T2U2YHE3E;
 						ProvisioningStyle = Automatic;
 					};
 					56B00A421E549DA80069E3C3 = {
@@ -197,6 +228,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		25AFF3A2B489E43B514F4691 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TotoScanner/Pods-TotoScanner-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D860E219B6D07A8EAAB18D96 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TotoScanner/Pods-TotoScanner-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE5E8A82D912AA9D6D485366 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		56B00A291E549DA80069E3C3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -205,6 +284,7 @@
 				56B00A351E549DA80069E3C3 /* SecondViewController.swift in Sources */,
 				56B00A311E549DA80069E3C3 /* AppDelegate.swift in Sources */,
 				56B00A331E549DA80069E3C3 /* FirstViewController.swift in Sources */,
+				0CD20AD41E54AFC1003E4E70 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,8 +421,10 @@
 		};
 		56B00A4D1E549DA80069E3C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2093032F952A52E8149D670B /* Pods-TotoScanner.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4T2U2YHE3E;
 				INFOPLIST_FILE = TotoScanner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = St.TotoScanner;
@@ -353,8 +435,10 @@
 		};
 		56B00A4E1E549DA80069E3C3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F74383FD98B30491C49CA48A /* Pods-TotoScanner.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4T2U2YHE3E;
 				INFOPLIST_FILE = TotoScanner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = St.TotoScanner;
@@ -410,6 +494,7 @@
 				56B00A4E1E549DA80069E3C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		56B00A4F1E549DA80069E3C3 /* Build configuration list for PBXNativeTarget "TotoScannerTests" */ = {
 			isa = XCConfigurationList;
@@ -418,6 +503,7 @@
 				56B00A511E549DA80069E3C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
